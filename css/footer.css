@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o body ocupa toda a altura da tela */
+}
+
+main {
+    flex: 1; /* Faz o conteúdo principal crescer para empurrar o rodapé para o fim */
+}
+
+.footer-main {
+    background-color: #000536; /* Cor do rodapé principal */
+    width: 100%; /* Largura total */
+    height: 312px; /* Altura fixa */
+    color: white; /* Cor do texto */
+    display: flex;
+    justify-content: space-around; /* Espaço entre os elementos */
+    align-items: center; /* Centraliza os itens verticalmente */
+    font-size: 24px; /* Tamanho da fonte */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box;
+}
+
+.footer-secondary {
+    background-color: #FFFFFF; /* Cor do rodapé secundário */
+    font-weight: bold;
+    width: 100%; /* Largura total */
+    height: 42px; /* Altura fixa */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #000536; /* Linha de separação opcional */
+    font-size: 16px;
+    color: #000536; /* Cor do texto */
+}
+
+.logo img {
+    width: 208px; /* Largura */
+    height: 114px; /* Altura */
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Espaçamento entre os links */
+    color: white;
+}
+
+.links a {
+    text-decoration: none;
+    color: white; /* Altere para branco para contraste */
+    font-size: 18px; /* Tamanho da fonte dos links */
+    transition: color 0.3s; /* Efeito suave ao passar o mouse */
+}
+
+.links a:hover {
+    color: #FF8C40; /* Altere a cor ao passar o mouse */
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.newsletter-text {
+    font-size: 28px; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
+}
+
+.email-input {
+    width: 447px; /* Largura */
+    height: 48px; /* Altura */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 4px; /* Arredondar bordas */
+    padding: 10px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding e borda no tamanho */
+}
+
+.send-button {
+    position: absolute; /* Botão posicionado dentro do container */
+    right: 5px; /* Distância do lado direito */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajuste para centralizar exatamente */
+    height: 36px; /* Altura do botão */
+    width: 175px;
+    background-color: #FF8C40; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    padding: 0 15px; /* Espaçamento interno horizontal */
+    cursor: pointer; /* Cursor de mão ao passar por cima */
+    font-size: 14px; /* Tamanho do texto */
+    transition: background-color 0.3s;
+}
+
+.send-button:hover {
+    background-color: #e67a33; /* Cor ao passar o mouse */
+}
+
+
+.input-wrapper {
+    position: relative;
+    width: 100%; /* Largura total do container */
+    max-width: 447px; /* Largura máxima */
+}
