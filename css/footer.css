@@ -46,6 +46,7 @@ main {
     flex-direction: column;
     gap: 25px; /* Espaçamento entre os links */
     color: white;
+    padding-left: 100px;
 }
 
 .links a {

@@ -1,15 +1,15 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
 }
 
 header {
     background-color: #091057;
     display: flex;
     height: 100px;
+    
 }
 
-.logo {
+.logoHeaderHome {
     width: 118px;
     height: 61px;
     position: absolute;
@@ -21,23 +21,22 @@ header {
     width: 34px;
     height: 34px;
     position: absolute;
-    right: 200px;
-    top: 30px;
+    right: 170px;
+    top: 70px;
 }
 
 .icon2 {
     width: 40px;
     height: 40px;
     position: absolute;
-    right: 80px;
-    top: 33px;
+    right: 60px;
+    top: 67px;
 }
 
 .nav-links {
     display: flex; /* Organiza os links em linha */
-    gap: 1px; /* Espaço entre os links - reduza esse valor para diminuir o espaço */
     align-items: center;
-    padding-left: 210px;
+    padding-left: 300px;
 }
 
 .nav-links a {
@@ -48,7 +47,7 @@ header {
     font-weight: 600;
     color: #fff;
     text-decoration: none;
-    text-align: center;
+
     line-height: 36px; /* Centraliza o texto verticalmente */
     background-color: transparent;
     letter-spacing: 1px;
@@ -58,6 +57,25 @@ header {
 .nav-links a:hover{
     font-size: 15.4px;
 }
+
+.sub-header {
+    width: 100%; /* Largura do sub cabeçalho */
+    height: 38px; /* Altura do sub cabeçalho */
+    background-color: #f1f1f1; /* Cor de fundo para destaque (pode ajustar conforme necessário) */
+    display: flex; /* Usando flexbox para alinhar o texto */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: flex-end; /* Alinha horizontalmente à direita */
+    font-family: 'Inter', sans-serif; /* Define a fonte */
+    font-size: 14px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #000; /* Cor do texto */
+    position: relative; /* Ajusta a posição em relação ao cabeçalho principal */
+    z-index: 2; /* Garante que fique acima de elementos principais, se necessário */
+}
+.sub-header p{
+    padding-right: 61px; /* Espaçamento interno à direita */
+}
+
 
 
 
