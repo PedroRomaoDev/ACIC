@@ -1,0 +1,71 @@
+body {
+    position: relative; /* Garante que o z-index funcione corretamente */
+    margin: 0;
+    padding: 0;
+}
+
+
+.text-container {
+  position: absolute;
+  top: 117px; /* Espaçamento do topo */
+  left: 130px; /* Espaçamento da esquerda */
+  z-index: 3; /* Fica acima das imagens */
+  color: white; /* Cor do texto */
+}
+
+.fonts {
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  padding-top: 70px; /* Aumenta o espaço somente em cima */
+  font-size: 63px;
+  left: 130px; /* Espaçamento da esquerda */
+  margin: 0;
+}
+
+.fonts2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 20px; /* Espaçamento entre o título e o parágrafo */
+  width: 699px; /* Largura do parágrafo */
+  height: 205px; /* Altura fixa */
+  font-size: 16px; /* Tamanho da fonte */
+  line-height: 1.4em; /* Espaçamento entre linhas */
+  word-spacing: 2px; /* Aumenta o espaço entre as palavras */
+  text-align: justify; /* Justifica o texto */
+  color: white; /* Cor do texto */
+  overflow: hidden; /* Impede o texto de ultrapassar a altura definida */
+}
+
+.buttons-container {
+    position: absolute;
+    top: 298px; /* Espaço no topo dos botões */
+    padding-top: 70px; /* Aumenta o espaço somente em cima */
+    left: 950px; /* Espaço à esquerda dos botões */
+    display: flex;
+    gap: 20px;
+    z-index: 4; /* Coloca os botões acima de todos os outros elementos */
+}
+
+.button {
+    font-family: "Inter", sans-serif;
+    font-weight: 600; /* Valor numérico, 700 é equivalente a "bold" */
+    letter-spacing: 2px; /* Aumenta o espaçamento entre as letras */
+    font-size: 16px;
+    width: 170px;
+    height: 46px;
+    background-color: #FF8C40;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #e07b32;
+}

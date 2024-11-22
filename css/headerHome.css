@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #091057;
+    display: flex;
+    height: 100px;
+}
+
+.logo {
+    width: 118px;
+    height: 61px;
+    position: absolute;
+    left: 90px; /* Alinha a logo à esquerda com 146px de espaçamento */
+    padding-top: 18px;
+}
+
+.icon {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    right: 200px;
+    top: 30px;
+}
+
+.icon2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 80px;
+    top: 33px;
+}
+
+.nav-links {
+    display: flex; /* Organiza os links em linha */
+    gap: 1px; /* Espaço entre os links - reduza esse valor para diminuir o espaço */
+    align-items: center;
+    padding-left: 210px;
+}
+
+.nav-links a {
+    font-family: "Inter", sans-serif;
+    width: 286px;
+    height: 36px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px; /* Centraliza o texto verticalmente */
+    background-color: transparent;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.nav-links a:hover{
+    font-size: 15.4px;
+}
+
+
+
+

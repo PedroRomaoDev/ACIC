@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="mainHome.css">
     <title>ACIC</title>
 </head>
 <body>
 <?php 
     include_once("View/header.php");
+    include_once("View/mainHome.php");
     include_once("View/footer.php");
       
 ?>
